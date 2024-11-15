@@ -5,7 +5,7 @@
 
 # Deskripsi
 aplikasi ini memungkinkan pengguna untuk mengelola daftar kontak, dengan fungsi untuk menambah, mengedit, menghapus, dan mencari kontak berdasarkan nama atau kategori.
-## Features
+# Features
 
 Berikut adalah deskripsi fitur-fitur utama aplikasi ini:
 
@@ -33,13 +33,10 @@ Berikut adalah deskripsi fitur-fitur utama aplikasi ini:
 - Id: ID unik untuk setiap kontak.
 - Nama: Nama dari kontak.
 - Nomor Telepon: Nomor telepon dari kontak.
-- Kategori: Kategori kontak.
-
-
-        # Code
-
-```
-        
+- Kategori: Kategori kontak. 
+ # Source Code
+ ```java
+           
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -526,10 +523,12 @@ public class PengelolaKontakFrame extends javax.swing.JFrame {
     // End of variables declaration                   
 }
 
+```
 
-        ```
 
-## Authors
+
+
+# Authors
 
 - MuhammadSaputraArjunaidy
 - 2210010300
@@ -537,4 +536,4 @@ public class PengelolaKontakFrame extends javax.swing.JFrame {
 - [@MuhammadSaputraArjunaidy](https://www.github.com/MuhammadSaputraArjunaidy)
 
 
-## Screenshot
+#  Screenshot
